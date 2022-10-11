@@ -1,3 +1,30 @@
 main{
-    background: orange;
+    background: rgb(255, 187, 0)
+}
+h1{
+    font-weight: 10px;
+    font-style: normal;
+    color:black;
+}
+h2{
+    font-style: italic;
+    color:darkgoldenrod;
+}
+div{
+    height: 200px;
+    background: white;
+    text-align:center;
+
+}
+p{
+    font-weight: bold;
+    font-size: 17px;
+    color: red
+}
+ol,ul {
+    border: solid 1px darkslategray;
+}
+
+body{
+    color: darkblue;
 }
