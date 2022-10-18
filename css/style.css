@@ -1,27 +1,26 @@
-main{
+.main{
     background: rgb(255, 187, 0)
 }
-h1{
-    font-weight: 10px;
-    font-style: normal;
+.header-1{
+    font-weight: normal;
     color:black;
 }
-h2{
+.header-2{
     font-style: italic;
     color:darkgoldenrod;
 }
-div{
+.div{
     height: 200px;
     background: white;
     text-align:center;
 
 }
-p{
+.p{
     font-weight: bold;
     font-size: 17px;
     color: red
 }
-ol,ul {
+.ol,.ul {
     border: solid 1px darkslategray;
 }
 
