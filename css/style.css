@@ -11,6 +11,17 @@ body{
     background-color: orangered;
     color: black;
     padding: 5px;
+    text-align: center;
+    }
+.nav-item{
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: wheat;
+
+}
+.nav-item:hover{
+    color: black;
 }
 .footer{
     background-color: white;
