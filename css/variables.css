@@ -1,0 +1,8 @@
+:root{
+    --primary-color:lightblue;
+    --primary-background:orangered;
+    --secondary-color:black;
+}
+.post{
+    --primary-background:white;
+}

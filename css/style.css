@@ -1,3 +1,4 @@
+@import "variables.css";
 body{
     margin:0;
     padding:0;
@@ -8,8 +9,8 @@ body{
     width: 800px
     }
 .navigation{
-    background-color: orangered;
-    color: black;
+    background-color:var(--primary-background);
+    color: var(--secondary-color);
     padding: 5px;
     text-align: center;
     }
@@ -17,14 +18,14 @@ body{
     display: inline-block;
     padding: 10px;
     text-decoration: none;
-    color: wheat;
+    color:var(--secondary-color);
 
 }
 .nav-item:hover{
-    color: black;
+    color:white;
 }
 .footer{
-    background-color: white;
+    background-color:var(--primary-color);
     
 }
 .title{
@@ -35,7 +36,7 @@ body{
 .subtitle{
     font-weight: lighter;
     font-size: 20px;
-    color: red;
+    color:red;
 }
 .full-column{
     width: 100%;

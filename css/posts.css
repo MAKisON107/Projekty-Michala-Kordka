@@ -1,3 +1,4 @@
+@import "variables.css";
 .post {
     background-color: white;
     border-radius: 45px;
@@ -7,14 +8,14 @@
     margin-bottom: 10px;
 }
 
-.title {
+.post > h2 {
     font-style: italic;
     font-size: 24px;
     margin-bottom: 10px;
     text-align: center;
 }
 
-.description {
+.post > p {
     text-align: justify;
     width: 80%;
     margin-left: auto;
