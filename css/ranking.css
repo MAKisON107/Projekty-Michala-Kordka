@@ -1,0 +1,13 @@
+@import "variables.css";
+table
+{
+border-collapse: collapse;
+border: solid 1px black;
+width: 100%;
+}
+th,td{
+    border: solid 1px black;
+}
+tr:nth-child(2n){
+   background-color:darkgray; 
+}

@@ -47,3 +47,6 @@ body{
         width: 49.5%;
         display: inline-block;
     }
+    img{
+        width:100%;
+    }
