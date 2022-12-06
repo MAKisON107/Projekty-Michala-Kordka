@@ -4,24 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <title> Ranking </title>
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/ranking.css">
 
 </head>
 
 <body>
-    <nav class="navigation">
-        <div class="container">
-            <a href="index.html" class="nav-item">Strona kadeta</a>
-            <a href="posts.html" class="nav-item">Posty</a>
-            <a href="comments.html" class="nav-item">Komentarze</a>
-            <a href="gallery.html" class="nav-item">Galeria</a>
-            <a href="ranking.html" class="nav-item">Ranking</a>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Strona kadeta</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Strona kadeta</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="posts.html">Posty</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="comments.html">Komentarze</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="gallery.html">Galeria</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="ranking.html">Ranking</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
     <main class="container">
         <h2>Zainteresowania</h2>
-        <table>
+        <table class="table table-bordered table-striped">
             <thead>
                 <tr>
                     <th>Numer</th>
@@ -35,30 +45,36 @@
                     <td>1</td>
                     <td>Gaming</td>
                     <td>Lubię grać w gry</td>
-                    <td><img src="https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?cs=srgb&dl=pexels-lucie-liz-3165335.jpg&fm=jpg" alt="Zdjęcie zainteresowań 1"></td>
+                    <td><img class="img-fluid"
+                            src="https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?cs=srgb&dl=pexels-lucie-liz-3165335.jpg&fm=jpg"
+                            alt="Zdjęcie zainteresowań 1"></td>
                 </tr>
                 <tr>
                     <td>2</td>
                     <td>Składanie i Rozkręcanie PC</td>
                     <td>Składam i rozkręcam komputery</td>
-                    <td><img src="https://ocdn.eu/pulscms-transforms/1/lTGktkqTURBXy81YmNjYzBhOTZmOGUwMDI4MWQ5YzliMDMyOWYxNzYxYi5qcGVnkpUDGADNAm7NAV6TBc0EsM0Cdg" alt="Zdjęcie zainteresowań 2"></td>
+                    <td><img class="img-fluid"
+                            src="https://ocdn.eu/pulscms-transforms/1/lTGktkqTURBXy81YmNjYzBhOTZmOGUwMDI4MWQ5YzliMDMyOWYxNzYxYi5qcGVnkpUDGADNAm7NAV6TBc0EsM0Cdg"
+                            alt="Zdjęcie zainteresowań 2"></td>
                 </tr>
                 <tr>
                     <td>3</td>
                     <td>Jazda na Rowerze</td>
                     <td>jeżdżę na rowerze</td>
-                    <td><img src="https://www.bcaa.pl/images/78/78-a2.jpg" alt="Zdjęcie zainteresowań 3"></td>
+                    <td><img class="img-fluid" src="https://www.bcaa.pl/images/78/78-a2.jpg"
+                            alt="Zdjęcie zainteresowań 3"></td>
                 </tr>
                 <tr>
                     <td>4</td>
                     <td>Pływanie</td>
                     <td>kiedyś pływałem teraz nie</td>
-                    <td><img src="https://4f.com.pl/media/magefan_blog/plywanie.jpg" alt="Zdjęcie zainteresowań 4"></td>
+                    <td><img class="img-fluid" src="https://4f.com.pl/media/magefan_blog/plywanie.jpg"
+                            alt="Zdjęcie zainteresowań 4"></td>
                 </tr>
             </tbody>
         </table>
         <h2>Filmy</h2>
-        <table>
+        <table class="table table-bordered table-striped">
             <thead>
                 <tr>
                     <th>Numer</th>
@@ -72,51 +88,52 @@
                     <td>1</td>
                     <td>Star-Wars 1-6</td>
                     <td>Kosmiczna przygoda Skywalker'ów i nie tylko!</td>
-                    <td><img src="https://a.allegroimg.com/original/119d14/1b8c998a4b4dbf6ce5a6b09da2bb/GWIEZDNE-WOJNY-1-6-SAGA-PAKIET-6DVD" alt="Zdjęcie filmu 1"></td>
+                    <td><img class="img-fluid"
+                            src="https://a.allegroimg.com/original/119d14/1b8c998a4b4dbf6ce5a6b09da2bb/GWIEZDNE-WOJNY-1-6-SAGA-PAKIET-6DVD"
+                            alt="Zdjęcie filmu 1"></td>
                 </tr>
                 <tr>
                     <td>2</td>
                     <td>Niesamowity Spider-Man</td>
-                    <td>Peter Parker zostaje ugryźony przez radioaktywnego pająka, zostaje Spider-Man'em i ratuje N.Y</td>
-                    <td><img src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4E571141A797F42FDB09947AB878F9459DCD02779AB830C26059A95F4A64127E/scale?width=1200&aspectRatio=1.78&format=jpeg" alt="Zdjęcie filmu 2"></td>
+                    <td>Peter Parker zostaje ugryźony przez radioaktywnego pająka, zostaje Spider-Man'em i ratuje N.Y
+                    </td>
+                    <td><img class="img-fluid"
+                            src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4E571141A797F42FDB09947AB878F9459DCD02779AB830C26059A95F4A64127E/scale?width=1200&aspectRatio=1.78&format=jpeg"
+                            alt="Zdjęcie filmu 2"></td>
                 </tr>
                 <tr>
                     <td>3</td>
                     <td>Shrek 2</td>
                     <td>Nowa przygoda o znanym ogrze, który poznaje rodziców Fiony</td>
-                    <td><img src="https://images.justwatch.com/poster/175578943/s718/shrek-2.%7Bformat%7D" alt="Zdjęcie filmu 3"></td>
+                    <td><img class="img-fluid"
+                            src="https://images.justwatch.com/poster/175578943/s718/shrek-2.%7Bformat%7D"
+                            alt="Zdjęcie filmu 3"></td>
                 </tr>
             </tbody>
         </table>
 
     </main>
-    <footer class="footer">
-        <h2 class="title">Kontakt</h2>
-        <ol>
-            <li>Discord: o # 1234</li>
-            <li>Gmail: nazwa@gmail.com</li>
-        </ol>
-        <hr>
-        <div style="display: inline-block;width:45%">
-            <p>
-                Opis:
-            <ul>
-                <li>Polecam tą stronę!</li>
-                <li>Autor Strony</li>
-            </ul>
-            </p>
+    <footer class="text-bg-secondary mt-3 p-3">
+        <div class="container">
+            <h2>Kontakt</h2>
+            <div class="row">
+                <div class="col-6">
+                    <p class="text-primary">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum repellat ipsa delectus saepe, autem
+                        cum
+                        sit aspernatur repellendus blanditiis, sint quia consectetur, itaque iure ut expedita mollitia
+                        ipsum
+                        temporibus debitis.
+                    </p>
+                </div>
+                <div class="col-6">
+                    <p class="text-primary">Mail: przykladowy_mail@gmail.com</p>
+                    <p class="text-primary">Discord: Discord#1234</p>
+                </div>
+            </div>
         </div>
-        <div style="display: inline-block;width:45%">
-            <p>
-                Formy kontaktu:
-            </p>
-            <p>
-                Numer telefonu: 123456789
-            </p>
-        </div>
-        <hr>
-
     </footer>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>

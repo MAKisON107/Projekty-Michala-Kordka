@@ -1,24 +1,9 @@
 @import "variables.css";
 .comment {
-background: darkgray ;
+background: white ;
 padding: 15px;
 margin-top: 15px;
 transition: ease 1s;
-}
-.comment:hover{
-    background: white;
-
-}
-.title{
-    margin: 0;
-}
-.user-name{
-    padding: 3px;
-    border: solid 1px black;
-}
-input:focus{
-    border:black;
-    border-width: 3px;
 }
 textarea{
     width:100%;

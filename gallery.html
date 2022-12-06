@@ -4,68 +4,86 @@
 <head>
     <meta charset="UTF-8">
     <title> Galeria </title>
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/gallery.css">
 
 </head>
 
 <body>
-    <nav class="navigation">
-        <div class="container">
-            <a href="index.html" class="nav-item">Strona kadeta</a>
-            <a href="posts.html" class="nav-item">Posty</a>
-            <a href="comments.html" class="nav-item">Komentarze</a>
-            <a href="gallery.html" class="nav-item">Galeria</a>
-            <a href="ranking.html" class="nav-item">Ranking</a>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Strona kadeta</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Strona kadeta</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="posts.html">Posty</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="comments.html">Komentarze</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="gallery.html">Galeria</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="ranking.html">Ranking</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
     <main class="container">
         <h1>Galeria</h1>
-        <a class="img-link" href="https://memy.pl/show/big/uploads/Post/22444/14467192444568.jpg" target="_blank">
-            <img src="https://memy.pl/show/big/uploads/Post/22444/14467192444568.jpg" alt="opis">
-        </a>
-        <a class="img-link" href="https://pobierak.jeja.pl/images/c/9/2/300381_idealne-rozwiazanie.jpg" target="_blank">
-            <img src="https://pobierak.jeja.pl/images/c/9/2/300381_idealne-rozwiazanie.jpg" alt="opis">
-        </a>
-        <a class="img-link" href="https://img.besty.pl/images/402/42/4024207.jpg" target="_blank">
-            <img src="https://img.besty.pl/images/402/42/4024207.jpg" alt="opis">
-        </a>
-        <a class="img-link" href="https://pobierak.jeja.pl/images/4/a/9/448512_koniec-smiechawki.jpg" target="_blank">
-            <img src="https://pobierak.jeja.pl/images/4/a/9/448512_koniec-smiechawki.jpg" alt="opis">
-        </a>
-        <a class="img-link" href="https://i.pinimg.com/736x/4e/a5/7f/4ea57fe085fc7a1bde91ccf5b840cf6e.jpg" target="_blank">
-            <img src="https://i.pinimg.com/736x/4e/a5/7f/4ea57fe085fc7a1bde91ccf5b840cf6e.jpg" alt="opis">
-        </a>
-        <a class="img-link" href="https://www.blasty.pl/m/upload/images/large/2018/01/synku-tylko-jedz-ostroznie-nie-szalej_2018-01-11_17-38-41.jpg" target="_blank">
-            <img src="https://www.blasty.pl/m/upload/images/large/2018/01/synku-tylko-jedz-ostroznie-nie-szalej_2018-01-11_17-38-41.jpg" alt="opis">
-        </a>
-    </main>
-    <footer class="footer">
-        <h2 class="title">Kontakt</h2>
-        <ol>
-            <li>Discord: o # 1234</li>
-            <li>Gmail: nazwa@gmail.com</li>
-        </ol>
-        <hr>
-        <div style="display: inline-block;width:45%">
-            <p>
-                Opis:
-            <ul>
-                <li>Polecam tą stronę!</li>
-                <li>Autor Strony</li>
-            </ul>
-            </p>
+        <div class="row">
+            <a class="col-3" href="https://memy.pl/show/big/uploads/Post/22444/14467192444568.jpg" target="_blank">
+                <img class="img-fluid" src="https://memy.pl/show/big/uploads/Post/22444/14467192444568.jpg" alt="opis">
+            </a>
+            <a class="col-3" href="https://pobierak.jeja.pl/images/c/9/2/300381_idealne-rozwiazanie.jpg"
+                target="_blank">
+                <img class="img-fluid" src="https://pobierak.jeja.pl/images/c/9/2/300381_idealne-rozwiazanie.jpg"
+                    alt="opis">
+            </a>
+            <a class="col-3" href="https://img.besty.pl/images/402/42/4024207.jpg" target="_blank">
+                <img class="img-fluid" src="https://img.besty.pl/images/402/42/4024207.jpg" alt="opis">
+            </a>
+            <a class="col-3" href="https://pobierak.jeja.pl/images/4/a/9/448512_koniec-smiechawki.jpg" target="_blank">
+                <img class="img-fluid" src="https://pobierak.jeja.pl/images/4/a/9/448512_koniec-smiechawki.jpg"
+                    alt="opis">
+            </a>
         </div>
-        <div style="display: inline-block;width:45%">
-            <p>
-                Formy kontaktu:
-            </p>
-            <p>
-                Numer telefonu: 123456789
-            </p>
-        </div>
-        <hr>
 
+        <div class="row">
+            <a class="col-3" href="https://i.pinimg.com/736x/4e/a5/7f/4ea57fe085fc7a1bde91ccf5b840cf6e.jpg"
+                target="_blank">
+                <img class="img-fluid" src="https://i.pinimg.com/736x/4e/a5/7f/4ea57fe085fc7a1bde91ccf5b840cf6e.jpg"
+                    alt="opis">
+            </a>
+            <a class="col-3"
+                href="https://www.blasty.pl/m/upload/images/large/2018/01/synku-tylko-jedz-ostroznie-nie-szalej_2018-01-11_17-38-41.jpg"
+                target="_blank">
+                <img class="img-fluid"
+                    src="https://www.blasty.pl/m/upload/images/large/2018/01/synku-tylko-jedz-ostroznie-nie-szalej_2018-01-11_17-38-41.jpg"
+                    alt="opis">
+            </a>
+        </div>
+
+    </main>
+    <footer class="text-bg-secondary mt-3 p-3">
+        <div class="container">
+            <h2>Kontakt</h2>
+            <div class="row">
+                <div class="col-6">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum repellat ipsa delectus saepe, autem
+                        cum
+                        sit aspernatur repellendus blanditiis, sint quia consectetur, itaque iure ut expedita mollitia
+                        ipsum
+                        temporibus debitis.
+                    </p>
+                </div>
+                <div class="col-6">
+                    <p>Mail: przykladowy_mail@gmail.com</p>
+                    <p>Discord: Discord#1234</p>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 
