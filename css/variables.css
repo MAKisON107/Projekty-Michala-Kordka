@@ -1,7 +1,7 @@
 :root{
     --primary-color:lightblue;
-    --primary-background:orangered;
-    --secondary-color:black;
+    --primary-background:#0000;
+    --secondary-color:#E95420;
 }
 .post{
     --primary-background:white;

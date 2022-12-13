@@ -1,1 +1,11 @@
+body{
+ background: #E95420;
+ color: white;
+}
+.footer{
+    background: #ffad00!important;
+}
 
+.lead{
+    color: black;
+}

@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">Strona kadeta</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -49,19 +49,22 @@
                 at voluptatem optio nihil quis, labore mollitia ab blanditiis cupiditate hic eveniet atque ut
                 temporibus explicabo totam?</p>
         </div>
-        <div class="half-column">
+        <div class="row">
+            
+        <div class="col-6">
             <label for="Nazwa użytkownika">Nazwa użytkownika</label>
-            <input id="Nazwa użytkownika" class="user-name" type="text" placeholder="Nazwa użytkownika">
+            <input class="form-control" id="Nazwa użytkownika" class="user-name" type="text" placeholder="Nazwa użytkownika">
         </div>
-        <div class="half-column">
+        <div class="col-6">
             <label for="email">E-mail</label>
-            <input id="email" type="email" placeholder="E-mail">
+            <input class="form-control" id="email" type="email" placeholder="E-mail">
         </div>
-        <div class="full-column">
-            <textarea id="tresc" placeholder="Treść"></textarea>
         </div>
-        <div class="full-column">
-            <input type="submit" value="Wyślij">
+        <div class="col-12">
+            <textarea class="form-control" id="tresc" placeholder="Treść"></textarea>
+        </div>
+        <div class="col-12">
+            <input class="btn btn-outline-success" type="submit" value="Wyślij">
         </div>
     </main>
 </body>
