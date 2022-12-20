@@ -3,10 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <title> Galeria </title>
+    <title> Kontakt </title>
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/gallery.css">
 
 </head>
 
@@ -31,35 +30,40 @@
         </div>
     </nav>
     <main class="container">
-        <h1>Galeria</h1>
-        <div class="row row-cols-6">
-            <a class="col" href="https://memy.pl/show/big/uploads/Post/22444/14467192444568.jpg" target="_blank">
-                <img class="img-fluid" src="https://memy.pl/show/big/uploads/Post/22444/14467192444568.jpg" alt="opis">
-            </a>
-            <a class="col" href="https://pobierak.jeja.pl/images/c/9/2/300381_idealne-rozwiazanie.jpg"
-                target="_blank">
-                <img class="img-fluid" src="https://pobierak.jeja.pl/images/c/9/2/300381_idealne-rozwiazanie.jpg"
-                    alt="opis">
-            </a>
-            <a class="col" href="https://img.besty.pl/images/402/42/4024207.jpg" target="_blank">
-                <img class="img-fluid" src="https://img.besty.pl/images/402/42/4024207.jpg" alt="opis">
-            </a>
-            <a class="col" href="https://pobierak.jeja.pl/images/4/a/9/448512_koniec-smiechawki.jpg" target="_blank">
-                <img class="img-fluid" src="https://pobierak.jeja.pl/images/4/a/9/448512_koniec-smiechawki.jpg"
-                    alt="opis">
-            </a>
-             <a class="col" href="https://i.pinimg.com/736x/4e/a5/7f/4ea57fe085fc7a1bde91ccf5b840cf6e.jpg"
-                target="_blank">
-                <img class="img-fluid" src="https://i.pinimg.com/736x/4e/a5/7f/4ea57fe085fc7a1bde91ccf5b840cf6e.jpg"
-                    alt="opis">
-            </a>
-            <a class="col"
-                href="https://www.blasty.pl/m/upload/images/large/2018/01/synku-tylko-jedz-ostroznie-nie-szalej_2018-01-11_17-38-41.jpg"
-                target="_blank">
-                <img class="img-fluid"
-                    src="https://www.blasty.pl/m/upload/images/large/2018/01/synku-tylko-jedz-ostroznie-nie-szalej_2018-01-11_17-38-41.jpg"
-                    alt="opis">
-            </a>
+        <h1>Kontakt</h1>
+        <div class="row row-cols-2">
+            <form method="Post" class="col">
+                <div class="row row-cols-2">
+                    <div class="col">
+                        <label class="form-label" for="firstName">Imie</label>
+                        <input type="text" id="firstName" name="firstName" class="form-control">
+                    </div>
+                    <div class="col">
+                        <label class="form-label" for="lastName">Nazwisko</label>
+                        <input type="text" id="lastName" name="lastName" class="form-control">
+                    </div>
+                    <div class="col-12">
+                        <label class="form-label" for="E-mail">E-mail</label>
+                        <input type="email" id="email" name="email" class="form-control">
+                    </div>
+                    <div class="col-12">
+                        <label class="form-label" for="content">Treść wiadomości</label>
+                        <textarea type="content" id="content" class="form-control"></textarea>
+                    </div>
+                    <div class="col-12 mt-3">
+                        <input type="submit" value="Wyślij" class="btn btn-outline-secondary col-12">
+                    </div>
+                </div>
+            </form>
+            <div class="col">
+                <img src="https://i.kym-cdn.com/photos/images/facebook/002/337/293/949" alt="" class="img-fluid">
+            </div>
+        </div>
+        <div class="row row-cols-4 mt-4">
+            <a class="btn btn-outline-secondary" href="a" target="_blank">Youtube</a>
+            <a class="btn btn-outline-secondary" href="a" target="_blank">Discord</a>
+            <a class="btn btn-outline-secondary" href="a" target="_blank">Instagram</a>
+            <a class="btn btn-outline-secondary" href="a" target="_blank">Facebook</a>
         </div>
     </main>
     <footer class="text-bg-secondary mt-3 p-3 footer">
@@ -67,7 +71,7 @@
             <h2>Kontakt</h2>
             <div class="row">
                 <div class="col-6">
-                    <p>
+                    <p class="text-primary">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum repellat ipsa delectus saepe, autem
                         cum
                         sit aspernatur repellendus blanditiis, sint quia consectetur, itaque iure ut expedita mollitia
